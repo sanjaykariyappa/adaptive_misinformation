@@ -1,0 +1,22 @@
+{
+ "dataset": "MNIST",
+ "model_arch": "lenet",
+ "out_path": "models/defender/mnist/SM/",
+ "device_id": 0,
+ "batch_size": 128,
+ "epochs": 20,
+ "lr": 0.1,
+ "momentum": 0.9,
+ "log_interval": 200,
+ "resume": null,
+ "lr_step": 10,
+ "lr_gamma": 0.1,
+ "num_workers": 10,
+ "pretrained": null,
+ "weighted_loss": null,
+ "defense": "SM",
+ "oe_lamb": 1.0,
+ "dataset_oe": "KMNIST",
+ "num_classes": 10,
+ "created_on": "2022-01-23 19:47:09.111162"
+}
