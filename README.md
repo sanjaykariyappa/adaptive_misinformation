@@ -13,7 +13,8 @@ Implementation of the paper "Defending Against Model Stealing Attacks with Adapt
 
 ## Train Defender Model
 
-** Selective Misinformation**
+### Selective Misinformation
+
 python admis/defender/train.py MNIST lenet -o models/defender/mnist -e 20 --lr 0.1 --lr-step 10 --log-interval 200 -b 128 --defense=SM --oe_lamb 1 -doe KMNIST
 
 
